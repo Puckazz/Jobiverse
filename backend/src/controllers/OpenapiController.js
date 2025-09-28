@@ -3,7 +3,7 @@ class OpenapiController {
   async getLocations(req, res, next) {
     console.log('Start fetching provinces')
     try {
-      const response = await fetch('https://provinces.open-api.vn/api?depth=3')
+      const response = await fetch('https://provinces.open-api.vn/api/v1/?depth=3')
       if (!response.ok) throw new Error(`External API error: ${response.status} ${response.statusText}`)
       const data = await response.json()
       res.status(200).json(data)
