@@ -77,10 +77,11 @@ Jobiverse/
 ## ⚙️ Prerequisites
 
 -   Repo Members: run env.ps1 (Windows) or env.sh (Unix) and use the GitHub token shared by the repo owner to fetch environment files.
-    ```sh
+    ```powershell
     ### Windows
     .\env-sync.ps1
-
+    ```
+    ```zsh
     ### Unix / Linux
     ./env-sync.sh
     ```
