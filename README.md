@@ -67,8 +67,8 @@ Jobiverse/
 │   ├── src/                # Source code for frontend
 │   ├── public/             # Public assets for frontend
 │   └── package.json        # Frontend dependencies
-├── env.ps1                 # Script to fetch environment files (Windows)
-├── env.sh                  # Script to fetch environment files (Unix)
+├── env-sync.ps1            # Script to fetch environment files (Windows)
+├── env-sync.sh             # Script to fetch environment files (Unix)
 └── README.md               # Project documentation
 ```
 
@@ -77,6 +77,13 @@ Jobiverse/
 ## ⚙️ Prerequisites
 
 -   Repo Members: run env.ps1 (Windows) or env.sh (Unix) and use the GitHub token shared by the repo owner to fetch environment files.
+    ```sh
+    ### Windows
+    .\env-sync.ps1
+
+    ### Unix / Linux
+    ./env-sync.sh
+    ```
 
 -   Non-members: manually copy from example files to create .env (for backend, frontend) and appsettings.json (for backend.NET).
     ```
