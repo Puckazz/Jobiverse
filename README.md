@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Jobiverse</h1>
-  <p><em>Jobiverse is a platform designed to connect students and employers, enabling efficient project management and collaboration.</em></p>
+    <p><em>Jobiverse is a platform designed to connect students and employers, enabling efficient project management and collaboration.</em></p>
     <h1></h1>
 </div>
 
@@ -24,10 +24,10 @@
 
 ## 🚀Features
 
--   **Student Management**: Students can apply for projects, respond to invitations, and manage their applications.
--   **Employer Management**: Employers can create projects, invite students, and manage applications.
--   **Favorites**: Users can save projects to their favorites for quick access.
--   **Recommendations**: Projects and students are recommended based on matching criteria.
+- **Student Management**: Students can apply for projects, respond to invitations, and manage their applications.
+- **Employer Management**: Employers can create projects, invite students, and manage applications.
+- **Favorites**: Users can save projects to their favorites for quick access.
+- **Recommendations**: Projects and students are recommended based on matching criteria.
 
 ---
 
@@ -39,12 +39,12 @@
 
 ## 👥 Team Members
 
--   Hồ Chí Trung – (Team Leader)
--   Lê Nhật Trường
--   Lương Bảo Phúc
--   Nguyễn Thị Kim Trâm
--   Lê Hứa Bảo Trân
--   Nguyễn Hữu Phước
+- Hồ Chí Trung – (Team Leader)
+- Lê Nhật Trường
+- Lương Bảo Phúc
+- Nguyễn Thị Kim Trâm
+- Lê Hứa Bảo Trân
+- Nguyễn Hữu Phước
 
 ---
 
@@ -76,17 +76,16 @@ Jobiverse/
 
 ## ⚙️ Prerequisites
 
--   Repo Members: run env.ps1 (Windows) or env.sh (Unix) and use the GitHub token shared by the repo owner to fetch environment files.
-    ```powershell
-    ### Windows
-    .\env-sync.ps1
-    ```
-    ```zsh
-    ### Unix / Linux
-    ./env-sync.sh
-    ```
+- Repo Members:
+    - _Windows_: Simply **double-click** the file `env-sync.bat`, then **enter your GitHub token** (provided by the repo owner).
+    - _Unix / Linux_: Run the file `env-sync.sh` in your terminal with **your GitHub token** (provided by the repo owner)
 
--   Non-members: manually copy from example files to create .env (for backend, frontend) and appsettings.json (for backend.NET).
+        ```zsh
+        ### Unix / Linux
+        ./env-sync.sh
+        ```
+
+- Non-members: manually copy from example files to create .env (for backend, frontend) and appsettings.json (for backend.NET).
     ```
     backend/.env.example → backend/.env
     frontend/.env.example → frontend/.env
