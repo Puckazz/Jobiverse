@@ -67,7 +67,7 @@ Jobiverse/
 │   ├── src/                # Source code for frontend
 │   ├── public/             # Public assets for frontend
 │   └── package.json        # Frontend dependencies
-├── env-sync.ps1            # Script to fetch environment files (Windows)
+├── env-sync.bat            # Script to fetch environment files (Windows)
 ├── env-sync.sh             # Script to fetch environment files (Unix)
 └── README.md               # Project documentation
 ```
